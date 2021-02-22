@@ -27,6 +27,8 @@ function handleSubmit(event) {
                 document.getElementById('score_tag').innerHTML = "Score Tag: " + result.score_tag
                 document.getElementById('subjectivity').innerHTML = "Subjectivity: " + result.subjectivity
             })
+    } else {
+        alert('Invalid Url! Please check and try again')
     }
 }
 
